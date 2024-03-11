@@ -6,8 +6,8 @@ import AppKit
 import OSLog
 import UniformTypeIdentifiers
 
-import hdiutil
-import DSStoreKit
+//import hdiutil
+//import DSStoreKit
 
 extension AppDMG {
     enum AppDMGError: LocalizedError {

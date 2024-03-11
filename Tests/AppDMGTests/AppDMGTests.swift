@@ -6,7 +6,7 @@ final class AppDMGTests: XCTestCase {
         AppDMG.default.log = true
         try await AppDMG.default.createDMG(
             url: URL(string: "file:///Users/chocoford/Downloads/test_hdituil/TrickleCapture_Test.app")!,
-            backgroundImage: nil,
+            //backgroundImage: nil,
             appIconPos: CGPoint(x: 180, y: 170),
             appendixes: [.application(position: CGPoint(x: 480, y: 170))]
         )
